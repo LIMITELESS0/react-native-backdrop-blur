@@ -63,7 +63,8 @@
   },
   "homepage": "https://github.com/LIMITELESS0/react-native-backdrop-blur#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^21.2.0",
