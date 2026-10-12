@@ -1,6 +1,6 @@
 {
   "name": "react-native-backdrop-blur",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CSS backdrop-filter: blur() for React Native (Fabric). Live blur over camera / video SurfaceViews on Android, system material on iOS.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
