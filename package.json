@@ -1,7 +1,7 @@
 {
   "name": "react-native-backdrop-blur",
   "version": "0.1.0",
-  "description": "frosted glass",
+  "description": "CSS backdrop-filter: blur() for React Native (Fabric). Live blur over camera / video SurfaceViews on Android, system material on iOS.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -45,18 +45,23 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "blur",
+    "backdrop-filter",
+    "frosted-glass",
+    "fabric",
+    "camera"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LIMITELESS0/react-native-backdrop-blur.git/react-native-backdrop-blur.git"
+    "url": "git+https://github.com/LIMITELESS0/react-native-backdrop-blur.git"
   },
-  "author": "LIMITELESS0 <2634197152@qq.com> (https://github.com/LIMITELESS0/react-native-backdrop-blur.git)",
+  "author": "LIMITELESS0 <2634197152@qq.com> (https://github.com/LIMITELESS0)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LIMITELESS0/react-native-backdrop-blur.git/react-native-backdrop-blur/issues"
+    "url": "https://github.com/LIMITELESS0/react-native-backdrop-blur/issues"
   },
-  "homepage": "https://github.com/LIMITELESS0/react-native-backdrop-blur.git/react-native-backdrop-blur#readme",
+  "homepage": "https://github.com/LIMITELESS0/react-native-backdrop-blur#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -90,7 +95,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": ">=0.76.0"
   },
   "workspaces": [
     "example"
@@ -142,7 +147,7 @@
       "customExportConditions": [
         "require",
         "react-native",
-        "<%- project.sourceCondition -%>"
+        "react-native-backdrop-blur-source"
       ]
     },
     "modulePathIgnorePatterns": [
