@@ -24,6 +24,15 @@ export default defineConfig([
     },
   },
   {
+    // Node ESM config files (vite.config.mjs etc.) use import attributes and
+    // import.meta, which the default parser options reject.
+    files: ['**/*.mjs'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+    },
+  },
+  {
     ignores: ['node_modules/', 'lib/'],
   },
 ]);
